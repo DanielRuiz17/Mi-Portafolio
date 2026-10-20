@@ -118,7 +118,7 @@ SECCIÓN HEADER / HERO
 
 .hero-title {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 1000;
   margin-bottom: 1rem;
   line-height: 1.2;
 }
@@ -160,11 +160,14 @@ SECCIÓN MAIN / CONTENIDO PRINCIPAL
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  color: #f84013;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+
 }
 
 .content-section {
   width: 100%;
+
 }
 
 .section-header {
@@ -183,6 +186,8 @@ SECCIÓN MAIN / CONTENIDO PRINCIPAL
 .section-description {
   font-size: 1.1rem;
   color: #fff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+
 }
 
 .cards-grid {
@@ -261,6 +266,7 @@ SECCIÓN FOOTER / PIE DE PÁGINA
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2.5rem;
+  color: #fff;
 }
 
 .footer-col .footer-brand {
@@ -273,7 +279,7 @@ SECCIÓN FOOTER / PIE DE PÁGINA
 .footer-col .footer-desc,
 .footer-col p {
   font-size: 0.95rem;
-  color: #94a3b8;
+  color: #fff;
   line-height: 1.5;
 }
 
