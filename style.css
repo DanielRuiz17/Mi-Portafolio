@@ -494,8 +494,180 @@ iframe {
 
 }
 
-.imagen_principal img {
+img .foto-perfil{ 
     text-align: center;
-    width: 550px;
-    height: 350px;
+    width: 300px;
+    height: auto;
   }
+
+  img { 
+    text-align: center;
+    width: 500px;
+    height: auto;
+  }
+
+  img { 
+    text-align: center;
+    width: 500px;
+    height: auto;
+  }
+
+.pie {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.proyectos1 {
+    width: 48%;
+    margin: 0;
+    text-align: center;
+}
+
+.proyectos1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.proyectos1 figcaption {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+    color: white;
+}
+
+.proyectos2 {
+    width: 48%;
+    margin: 0 0 0 auto;
+    text-align: center;
+}
+
+.proyectos2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.proyectos2 figcaption {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+    color: white;
+}
+.pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.proyectos3 {
+    width: 48%;
+    margin: 15px auto 0 auto;
+    text-align: center;
+}
+
+.proyectos3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.proyectos3 figcaption {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+    color: white;
+}
+.pie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px 10px;
+    width: 100%;
+}
+
+.proyectos1,
+.proyectos2 {
+    width: 48%;
+    margin: 0;
+}
+
+.proyectos3 {
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* CONTENEDOR DE LA SEGUNDA SECCIÓN */
+.pie2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px 10px;
+    width: 100%;
+}
+
+/* PRIMERA IMAGEN: IZQUIERDA */
+.proyectos2-1 {
+    width: 48%;
+    margin: 0;
+    text-align: center;
+}
+
+.proyectos2-1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.proyectos2-1 figcaption {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+    color: white;
+}
+
+/* SEGUNDA IMAGEN: DERECHA */
+.proyectos2-2 {
+    width: 49.5%;
+    margin: 0;
+    text-align: center;
+}
+
+.proyectos2-2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.proyectos2-2 figcaption {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+    color: white;
+}
+
+/* TERCERA IMAGEN: CENTRO ABAJO */
+.proyectos2-3 {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.proyectos2-3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.proyectos2-3 figcaption {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+    color: white;
+}
